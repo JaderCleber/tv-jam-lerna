@@ -1,0 +1,33 @@
+{
+  "name": "front",
+  "version": "0.0.0",
+  "description": "Projeto que consumirá o bff que concentra o consumo das apis externas",
+  "keywords": [
+    "jamstack",
+    "react",
+    "gatsby",
+    "cosmic"
+  ],
+  "author": "jadercleber <jader.cleber@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/front.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.19.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
