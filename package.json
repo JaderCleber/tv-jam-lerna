@@ -3,5 +3,16 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.20.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "front": "yarn workspace front run dev",
+    "front:build": "yarn workspace front run build",
+    "clean": "cd packages/front && gatsby clean",
+    "front:test": "yarn workspace front run test",
+    "jest:lint": "jest --config jest-eslint.config.js"
   }
 }
